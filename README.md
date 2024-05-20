@@ -16,9 +16,14 @@ Para ejecutar la aplicación en tu entorno local, sigue estos pasos:
 1. Clona este repositorio en tu máquina local.
 2. Abre una terminal en la carpeta del proyecto.
 3. Ejecuta el siguiente comando para instalar las dependencias del proyecto:
-4. Después de instalar las dependencias, puedes iniciar la aplicación ejecutando el comando:
-5. La aplicación estará disponible en tu navegador en la dirección `http://localhost:3000`.
-
+```JavaScript
+npm install
+```
+5. Después de instalar las dependencias, puedes iniciar la aplicación ejecutando el comando:
+```JavaScript
+npm run start:dev
+```
+6. La aplicación estará disponible en tu navegador en la dirección `http://localhost:3000`.
 ## Dependencias
 
 La aplicación utiliza las siguientes dependencias de terceros:
